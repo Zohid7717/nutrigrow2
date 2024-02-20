@@ -1,0 +1,14 @@
+footer{
+  background-color: #232323;
+}
+.footer{
+  &__main{
+    padding: clamp(35px, 11.8vw, 165px) 0;
+    border-bottom: 2px solid #484848;
+  }
+  &__copyright{
+    text-align: center;
+    padding: clamp(15px, 3.42vw, 48px) 0;
+    color: white;
+  }
+}

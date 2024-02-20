@@ -1,0 +1,71 @@
+{
+  "Index": {
+    "title": "Salom dunyo!"
+  },
+  "Navigation":{
+    "home": "Biz haqimizda",
+    "catalog": "Katalog",
+    "partners": "Hamkorlar",
+    "blog": "Blog",
+    "contacts": "Kontakt"
+  },
+  "Home":{
+    "hero":{
+      "h1": "Biz haqimizda",
+      "text": "NutriGrow kompaniyasiga xush kelibsiz. Kompaniyamiz 2020-yilda tashkil etilgan bo'lib, donador o'g'itlarning keng assortimentini ishlab chiqarishga ixtisoslashgan. Biz 37 turdagi donador o'g'itlarni, jumladan 11 turdagi NPK(S), 8 ta murakkab NPK va 8 ta gumin kislotali organomineral NPK, 10 turdagi granulali va mikroelementli suvda to'liq eriydigan kukunli NPK o'g'itlarini yetkazib berishdan faxrlanamiz."
+    },
+    "why": {
+      "h2": "NIMA UCHUN NUTRIGROW?",
+      "advantage": {
+        "item-1": {
+          "title": "Mahsulotlarning keng assortimenti:",
+          "content": "Bizning katalog turli xil ekinlar va tuproq turlarini inobatga olib, ularga mos keladigan xar xil o'g'itlarni taqdim etadi."
+        },
+        "item-2": {
+          "title": "Sertifikatlangan sifat:",
+          "content": "Bizda 37 turdagi NPK va NPK(S) o'g'itlari uchun kimyoviy va biologik o'simliklarni himoya qilish vositalari, mineral va mikrobiologik o'g'itlarni ro'yxatdan o'tkazish to'g'risidagi sertifikatlar mavjud bo'lib, bu mahsulotimizning yuqori standartini ta'kidlaydi."
+        },
+        "item-3": {
+          "title": "Ishlab chiqarish quvvati:",
+          "content": "Bizning ishlab chiqarish quvvatimiz yiliga 100 000 tonnaga yetadi, bu esa turli hududlarda barqaror ta'minotni ta'minlaydi."
+        },
+        "item-4": {
+          "title": "Qat'iy standartlar",
+          "content": "Bizning mahsulotlarimiz eng yuqori sifat standartlariga javob beradi, shuning uchun har bir NutriGrow granulasi nafaqat o'g'it, balki sizning o'simliklaringiz salomatligi va farovonligining kafolati hisoblanadi."
+        }
+      },
+      "content-btn":{
+        "a": "Ko'proq ma'lumot",
+        "span": "Bizni kuzating"
+      }
+    },
+    "ProductAdvantages": {
+      "h3": "KOMPLEKS OZUQALANTIRISH:",
+      "h4": "KOMPLEKS NPK O'G'ITLARI VA ULARNING AFZALLIKLARI",
+      "items": {
+        "item-1": {
+          "title": "GRANULALI NPK(S) O'G'ITLARI ",
+          "content":"NPKS o'g'itlari tarkibida oltingugurt (S) mavjud bo'lib, bu o'simliklarning ozuqa moddalarini singdirish samaradorligini yanada oshiradi. Bu tashqi muhitga chidamlilikni yaxshilaydi va yuqori sifatli hosilni ta'minlaydi."
+        },
+        "item-2": {
+          "title": "GRANULALI NPK O'G'ITLARI",
+          "content":"Murakkab NPK o'g'itlari (tarkibida azot, fosfor va kaliy mavjud) o'simliklar rivojlanishida muhim rol o'ynaydi, chunki bu uch element o'simlik salomatligi va normal o'sishi uchun zarur bo'lgan asosiy makroelementlardir. Kompleks NPK o'g'itlari o'simliklarning ushbu uchta muhim makroelementga bo`lgan ehtiyojiini ta'minlash uchun ishlab chiqilgan. Tuproqdagi azot, fosfor va kaliy darajasini sozlash orqali siz o'simliklarning sog'lom o'sishini ta'minlashingiz, hosil sifatini yaxshilashingiz va tashqi muhitning noqulay sharoitlariga bo'lgan chidamlilikni oshirishingiz mumkin."
+        },
+        "item-3": {
+          "title": "GRANULALI NKP O'G'ITLARi + mikroelementlar + gumin kislotalar",
+          "content":"Organomineral NPK o'g'itlari ekologik toza, organik va mineral komponentlarning noyob birikmasidir. Tarkibga gumin kislotalarning qo'shilishi tuproqni boyitadi, uning tuzilishini yaxshilaydi va mikrobiologik faolligini oshiradi. Ushbu kompleks yondashuv o'simliklarni nafaqat zarur elementlar bilan, balki ularning optimal o'sishi uchun qulay sharoitlarni ham ta'minlaydi. Gumin kislotali organomineral o'g'itlar - bu organik va mineral komponentlarni, shu jumladan gumin kislotalarini birlashtirgan murakkab o'g'itdir."
+        },
+        "item-4": {
+          "title": "SUVDA ERUVCHAN GRANULALI NPK OG'ITLARI ",
+          "content":"Suvda eriydigan granulali NPK o'g'itlari o'simliklarning sog'lom o'sishi va rivojlanishi uchun zarur bo'lgan uchta muhim oziq moddalarni o'z ichiga olgan o'g'it turidir: azot (N), fosfor (P) va kaliy (K). Ushbu o'g'itlarning suvda eruvchanlg ularni tomchilatib sug'orish tizimlarida yoki bargiga purkash orqali ishlatish imkonini beradi. "
+        }
+      }
+    }
+  },
+  "Footer":{
+    "social":{
+      "p": "NutriGrow – o'simliklaringiz salomatligi, o'sishi va mo'l hosilini ta'minlashda ishonchli hamkoringiz!"
+    },
+    "privacy":"Barcha huquqlar himoyalangan."
+  }
+}

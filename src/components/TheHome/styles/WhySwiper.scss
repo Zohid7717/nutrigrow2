@@ -1,0 +1,28 @@
+.sw-slide {
+  height: 154px;
+  background: #f5f5f5;
+  padding: 25px;
+  h3 {
+    font-family: 'DM ans', Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #008929;
+  }
+
+  p {
+    display: -webkit-box;
+    font-family: Lato, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #232323;
+    line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+}
+
+.swiper-wrapper {
+  margin-bottom: 25px;
+}

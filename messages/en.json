@@ -1,0 +1,71 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "Navigation": {
+    "home": "About Us",
+    "catalog": "Catalog",
+    "partners": "Partners",
+    "blog": "Blog",
+    "contacts": "Contacts"
+  },
+  "Home": {
+    "hero": {
+      "h1": "About Us",
+      "text": "Welcome to NutriGrow , a company founded in 2020, specializing in the production of a wide range of granular fertilizers. We are proud to provide 37 types of granular fertilizers, including 11 types of NPK(S), 8 complex NPK and 8 organomineral NPK with humic acids, 10 types of granular and powdered fully water soluble NPK fertilizers with trace elements. These products are high-tech formulas designed to provide plants with everything they need for healthy growth and development."
+    },
+    "why": {
+      "h2": "WHY NUTRIGROW?",
+      "advantage": {
+        "item-1": {
+          "title": "Wide product range:",
+          "content": "Our fertilizer catalog provides a variety of options to suit the needs of different crops and soil types."
+        },
+        "item-2": {
+          "title": "Certified quality:",
+          "content": "We have Certificates of Registration of Chemical and Biological Plant Protection Products, Mineral and Microbiological Fertilizers for 37 types of NPK and NPK(S) fertilizers, which underlines the high standard of our products. "
+        },
+        "item-3": {
+          "title": "Production facilities:",
+          "content": "Our production capacity reaches 100,000 tons per year, ensuring a stable supply in various regions."
+        },
+        "item-4": {
+          "title": "Product quality:",
+          "content": "Our products meet the highest quality standards, so every NutriGrow's granule is not only a fertilizer, but also a guarantee of the health and prosperity of your plants."
+        }
+      },
+      "content-btn": {
+        "a": "Learn more",
+        "span": "Watch About Us"
+      }
+    },
+    "ProductAdvantages": {
+      "h3": "COMPLEX NUTRITION:",
+      "h4": "UNDERSTANDING COMPLEX NPK AND THEIR BENEFITS",
+      "items": {
+        "item-1": {
+          "title": "NPKS FERTILIZERS",
+          "content": "NPKS fertilizers include sulfur (S) in their composition, which further increases the efficiency of plant absorption of nutrients. This improves resistance to stress and contributes to the formation of a high-quality harvest. SULFUR plays an important role in plant development, performing several key functions in the plant life cycle."
+        },
+        "item-2": {
+          "title": "COMPLEX NPK FERTILIZERS",
+          "content": "Complex NPK fertilizers (containing nitrogen, phosphorus and potassium) play an important role in plant development, since these three elements are the main macronutrients necessary for plant health and normal growth. Complex NPK fertilizers are formulated to provide the optimal ratio of these three essential macronutrients, meeting the plants' needs for each. By adjusting the nitrogen, phosphorus and potassium levels in the soil, you can support healthy plant growth, improve crop quality and increase resistance to stress."
+        },
+        "item-3": {
+          "title": "ORGANOMINERAL NPK FERTILIZERS WITH HUMIC ACIDS",
+          "content": "Organomineral NPK fertilizers are environmentally friendly, a unique combination of organic and mineral components. The addition of humic acids to the composition enriches the soil, improving its structure and stimulating microbiological activity. This integrated approach provides plants not only with the necessary elements, but also with favorable conditions for their optimal growth. Organomineral fertilizers with humic acids are complex fertilizers that combine organic and mineral components, including humic acids. "
+        },
+        "item-4": {
+          "title": "WATER SOLUBLE GRANULAR NPK WITH MICROELEMENTS",
+          "content": "Водорастворимые гранулированные NPK удобрения представляют собой вид удобрений, содержащих три основных питательных элемента: азот (N), фосфор (P) и калий (K), которые необходимы для здорового роста и развития растений. Водорастворимость этих удобрений означает, что они могут легко растворяться в воде, что позволяет использовать их в системах капельного орошения или через листовые опрыскивания. "
+        }
+      }
+    }
+  },
+  "Footer": {
+    "social":{
+      "p":"Trust NutriGrow - your reliable partner in ensuring the health, growth and rich harvest of your plants!"
+    },
+    "privacy":"All rights reserved."
+  }
+}
