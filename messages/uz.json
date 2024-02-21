@@ -64,7 +64,10 @@
   },
   "Footer":{
     "social":{
+      "h3":"Navigatsiya",
       "p": "NutriGrow – o'simliklaringiz salomatligi, o'sishi va mo'l hosilini ta'minlashda ishonchli hamkoringiz!"
+    },"activities":{
+      "h3":"Faoliyat"
     },
     "privacy":"Barcha huquqlar himoyalangan."
   }

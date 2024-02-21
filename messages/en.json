@@ -64,7 +64,11 @@
   },
   "Footer": {
     "social":{
+      "h3":"Explore",
       "p":"Trust NutriGrow - your reliable partner in ensuring the health, growth and rich harvest of your plants!"
+    },
+    "activities":{
+      "h3":"Activities"
     },
     "privacy":"All rights reserved."
   }

@@ -1,0 +1,57 @@
+.activities {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+
+  h3 {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 118%;
+    color: #fff;
+  }
+}
+
+.activitues-swiper {
+  height: 184px;
+  overflow: hidden;
+
+  &__slide {
+    display: flex;
+    height: 70px;
+    width: 256px;
+    gap: 15px;
+  }
+
+  &__slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+      font-family: "Open Sans";
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 143%;
+      text-transform: uppercase;
+      color: #079460;
+    }
+
+    h4 {
+      font-family: "Open Sans";
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 133%;
+      color: #fff;
+    }
+  }
+}
+
+.swiper-slide {
+  color: white;
+  height: 50%;
+}
+
+.swiper {
+  height: 184px;
+}
