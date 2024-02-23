@@ -6,6 +6,8 @@ footer{
     padding: clamp(35px, 11.8vw, 165px) 0;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
   }
   &__copyright{
     border-top: 2px solid #484848;

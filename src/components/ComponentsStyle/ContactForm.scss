@@ -1,0 +1,97 @@
+.form {
+  max-width: 918px;
+  border: 1px solid;
+  flex-grow: 1;
+  padding: clamp(15px, 3.71vw, 52px) clamp(15px, 4.28vw, 60px);
+  background-color: #FAFBFA;
+
+  @media (max-width: 885px) {
+    width: 100%;
+  }
+
+  h3 {
+    font-family: Lato, Arial;
+    font-weight: 700;
+    font-size: clamp(24px, 2.57vw, 36px);
+    line-height: 111%;
+    color: #06150a;
+    margin-bottom: clamp(15px, 2.57vw, 36px);
+  }
+
+  &__input-box {
+    display: flex;
+    gap: clamp(15px, 2.85vw, 40px);
+
+    @media (max-width: 554px) {
+      flex-direction: column;
+    }
+
+    label {
+      width: 50%;
+
+      @media (max-width: 554px) {
+        width: 100%;
+      }
+    }
+
+    input {
+      margin-top: 6px;
+      border: 2px solid #e2e9e0;
+      height: 60px;
+      background-color: #fff;
+      padding: 16px;
+      font-size: 16px;
+      min-width: 100%;
+    }
+
+  }
+
+  label {
+    font-family: 'Open Sans', Arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-transform: uppercase;
+    color: #848783;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    position: relative;
+
+    p {
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      text-transform: none;
+      color: red;
+      font-size: 14px;
+    }
+  }
+
+  textarea {
+    margin-top: 6px;
+    border: 2px solid #e2e9e0;
+    width: 100%;
+    height: 180px;
+    background-color: #fff;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  button {
+    font-family: 'DM Sans', Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #008929;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #008929;
+    background-color: transparent;
+
+    &:hover {
+      background: #008929;
+      color: #fff;
+    }
+  }
+
+}

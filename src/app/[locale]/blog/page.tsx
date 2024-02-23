@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 function Blog() {
   return (
     <div>
-      <h1>Blog</h1>
+      <h1>Извините за неудобство. Мы работаем над обновлением этой страницы</h1>
     </div>
   );
 }

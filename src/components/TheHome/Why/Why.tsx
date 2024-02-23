@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import whyBG from "../../../../public/image/bg/why-bg.jpg";
 import { useTranslations } from 'next-intl';
-import WhySwiper from '../WhySwiper/WhySwiper';
+import WhySwiper from './WhySwiper/WhySwiper';
 import Link from 'next/link';
 import playBtn from "../../../../public/image/icon/Button Play.svg"
 import '../styles/Why.scss'

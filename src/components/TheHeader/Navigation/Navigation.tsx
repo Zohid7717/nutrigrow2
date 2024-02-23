@@ -3,7 +3,7 @@ import Link from 'next/link';
 import '../styles/Navigation.scss'
 import { usePathname } from 'next/navigation';
 import Language from '../Language/Language';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 type NavigationProps = {
   navItems: {
     label: string;
@@ -14,6 +14,13 @@ type NavigationProps = {
 function Navigation({ navItems }: NavigationProps) {
   const [activeNavWrap, setActiveNavWrap]=useState(false)
   const pathname = usePathname()
+  useEffect(() => {
+    if (activeNavWrap) {
+      document.body.classList.add('body-fixed')
+    } else {
+      document.body.classList.remove('body-fixed')
+    }
+  },[activeNavWrap])
   return <div className="navigation">
     <div className="burger" onClick={()=>setActiveNavWrap(!activeNavWrap)}>
       <span></span>

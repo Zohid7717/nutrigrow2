@@ -4,7 +4,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css'
 import 'swiper/css/pagination'
 import { useTranslations } from 'next-intl';
-import '../styles/WhySwiper.scss'
+import '../../styles/WhySwiper.scss'
 
 
 type WhySwiperProps = {

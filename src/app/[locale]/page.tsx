@@ -1,3 +1,4 @@
+import ContactForm from '@/components/TheHome/HomeForm';
 import Hero from '@/components/TheHome/Hero/Hero';
 import ProductAdvantages from '@/components/TheHome/ProductAdvantages/ProductAdvantages';
 import Why from '@/components/TheHome/Why/Why';
@@ -9,7 +10,8 @@ export default function Home() {
     <div>
       <Hero />
       <Why />
-      <ProductAdvantages/>
+      <ProductAdvantages />
+      <ContactForm/>
     </div>
   );
 }

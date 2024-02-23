@@ -4,6 +4,7 @@ import './styles/TheFooter.scss'
 import { useTranslations } from 'next-intl';
 import Explore from './Explore';
 import Activities from './Activities';
+import FooterContact from './FooterContact';
 
 function TheFooter() {
   const t = useTranslations('Footer')
@@ -14,7 +15,8 @@ function TheFooter() {
           <div className="footer__main">
             <Social />
             <Explore />
-            <Activities/>
+            <Activities />
+            <FooterContact/>
           </div>
           <p className="footer__copyright"><Link href='/privacy'>© 2022 NutriGrow. {t('privacy')} </Link></p>
         </div>

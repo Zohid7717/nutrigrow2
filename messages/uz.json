@@ -60,6 +60,11 @@
           "content":"Suvda eriydigan granulali NPK o'g'itlari o'simliklarning sog'lom o'sishi va rivojlanishi uchun zarur bo'lgan uchta muhim oziq moddalarni o'z ichiga olgan o'g'it turidir: azot (N), fosfor (P) va kaliy (K). Ushbu o'g'itlarning suvda eruvchanlg ularni tomchilatib sug'orish tizimlarida yoki bargiga purkash orqali ishlatish imkonini beradi. "
         }
       }
+    },
+    "Contact":{
+      "h3":"Partner with us",
+      "h4":"Biz yordam berishdan doim xursandmiz!",
+      "p": "Bizga har qanday savol, fikr-mulohazalaringiz yoki takliflaringizni qoldiring. Har qanday murojatingizdan biz uchun muxim!"
     }
   },
   "Footer":{
@@ -69,6 +74,17 @@
     },"activities":{
       "h3":"Faoliyat"
     },
+    "Contacts":{
+      "h3":"Kontaktlar"
+    },
     "privacy":"Barcha huquqlar himoyalangan."
+  },
+  "ContactForm": {
+    "h3":"Murojat uchun",
+    "required-message": "Maydon bo'sh bo`lmasligi kerak!",
+    "name-placeholder": "Ism:",
+    "phone-placeholder": "Telefon raqam:",
+    "question-placeholder": "Sizni nama qiziqtiryapti:",
+    "button": "Murojatni yuborish"
   }
 }

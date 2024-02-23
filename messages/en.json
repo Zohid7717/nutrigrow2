@@ -60,6 +60,11 @@
           "content": "Водорастворимые гранулированные NPK удобрения представляют собой вид удобрений, содержащих три основных питательных элемента: азот (N), фосфор (P) и калий (K), которые необходимы для здорового роста и развития растений. Водорастворимость этих удобрений означает, что они могут легко растворяться в воде, что позволяет использовать их в системах капельного орошения или через листовые опрыскивания. "
         }
       }
+    },
+    "Contact":{
+      "h3":"For Partnership with us",
+      "h4":"We are Here to Help",
+      "p": "Leave us any questions, comments or suggestions. Any request is important to us!"
     }
   },
   "Footer": {
@@ -70,6 +75,17 @@
     "activities":{
       "h3":"Activities"
     },
+    "Contacts":{
+      "h3":"Contacts"
+    },
     "privacy":"All rights reserved."
+  },
+  "ContactForm": {
+    "h3":"Contact us",
+    "required-message": "Fields are required to be filled out!",
+    "name-placeholder": "Name:",
+    "phone-placeholder": "Phone number:",
+    "question-placeholder": "What are You interested in?",
+    "button": "Send message"
   }
 }
