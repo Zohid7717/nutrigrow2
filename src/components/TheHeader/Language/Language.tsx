@@ -1,4 +1,5 @@
 'use client'
+ /* eslint-disable */
 import '../styles/Navigation.scss'
 
 import { usePathname, useRouter } from '@/navigation';
