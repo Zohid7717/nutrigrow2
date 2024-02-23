@@ -52,7 +52,7 @@
   @media (max-width: 700px) {
     position: absolute;
     display: flex;
-    height: calc(100vh - 100.9px);
+    height: calc(100dvh - 100.9px);
     flex-direction: column;
     justify-content: space-between;
     top: 55.5px;
