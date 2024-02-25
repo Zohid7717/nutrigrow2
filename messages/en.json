@@ -87,5 +87,9 @@
     "phone-placeholder": "Phone number:",
     "question-placeholder": "What are You interested in?",
     "button": "Send message"
+  },
+  "ContactUs":{
+    "h1":"Contact Us",
+    "text": "Welcome to our company's contact page! We appreciate your interest in our business and are ready to answer any questions you may have. Your opinion is important to us and we strive to provide you with the best service."
   }
 }

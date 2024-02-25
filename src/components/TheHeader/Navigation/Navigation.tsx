@@ -22,7 +22,7 @@ function Navigation({ navItems }: NavigationProps) {
     }
   },[activeNavWrap])
   return <div className="navigation">
-    <div className="burger" onClick={()=>setActiveNavWrap(!activeNavWrap)}>
+    <div className={activeNavWrap ? "burger active-burger" : "burger"} onClick={()=>setActiveNavWrap(!activeNavWrap)}>
       <span></span>
     </div>
     <div className={activeNavWrap ? "nav-wrap active-nav-wrap" : "nav-wrap"}>

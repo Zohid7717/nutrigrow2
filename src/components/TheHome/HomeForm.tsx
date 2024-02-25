@@ -30,11 +30,12 @@ async function HomeForm() {
         <div className="home-form__contacts">
           <p>
             <span>PHONE</span>
-            <Link href="tel:(101) 222 123 456">(101) 222 123 456</Link>
+            <Link href="tel:+998998322220">+998 99 832 2220</Link>
+            <Link href="tel:+998988772020">+998 98 877 2020</Link>
           </p>
           <p>
             <span>EMAIL</span>
-            <Link href="mailto:company@agria.com">company@agria.com</Link>
+            <Link href="mailto:nutrigrow2020@gmail.com">nutrigrow2020@gmail.com</Link>
           </p>
         </div>
       </div>

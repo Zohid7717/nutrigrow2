@@ -12,7 +12,7 @@
   "Home":{
     "hero":{
       "h1": "Biz haqimizda",
-      "text": "NutriGrow kompaniyasiga xush kelibsiz. Kompaniyamiz 2020-yilda tashkil etilgan bo'lib, donador o'g'itlarning keng assortimentini ishlab chiqarishga ixtisoslashgan. Biz 37 turdagi donador o'g'itlarni, jumladan 11 turdagi NPK(S), 8 ta murakkab NPK va 8 ta gumin kislotali organomineral NPK, 10 turdagi granulali va mikroelementli suvda to'liq eriydigan kukunli NPK o'g'itlarini yetkazib berishdan faxrlanamiz."
+      "text": "NutriGrow kompaniyasiga xush kelibsiz. Kompaniyamiz 2020-yilda tashkil etilgan bo'lib, granulalangan o'g'itlarning keng assortimentini ishlab chiqarishga ixtisoslashgan. Biz 37 turdagi granulalangan o'g'itlarni, jumladan 11 turdagi NPK(S), 8 ta murakkab NPK va 8 ta gumin kislotali organomineral NPK, 10 turdagi granulali va mikroelementli suvda to'liq eriydigan kukunli NPK o'g'itlarini yetkazib berishdan faxrlanamiz."
     },
     "why": {
       "h2": "NIMA UCHUN NUTRIGROW?",
@@ -86,5 +86,9 @@
     "phone-placeholder": "Telefon raqam:",
     "question-placeholder": "Sizni nama qiziqtiryapti:",
     "button": "Murojatni yuborish"
+  },
+  "ContactUs":{
+    "h1":"Bizning kontaktlarimiz",
+    "text": "Kompaniyamizning aloqa sahifasiga xush kelibsiz! Biz sizning maxsulotlarga bo'lgan qiziqishingizni qadrlaymiz va sizni qiziqtirgan barcha savollarga javob berishga tayyormiz. Sizning fikringiz biz uchun muhim va biz sizga eng yaxshi xizmatni taqdim etishga intilamiz."
   }
 }
