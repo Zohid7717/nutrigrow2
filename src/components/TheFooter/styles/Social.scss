@@ -8,16 +8,17 @@
     border-radius: 50%;
     overflow: hidden;
     transition: 0.5s;
+
     &:hover {
       box-shadow: 0px 0px 78px 10px rgb(249, 247, 247);
     }
-    
+
     img {
       width: 100%;
       height: 100%;
     }
   }
-  
+
   &>p {
     font-family: 'Open Sans';
     font-weight: 600;
@@ -25,24 +26,28 @@
     line-height: 133%;
     color: #fff;
   }
-  
+
   &__items {
     margin-top: clamp(20px, 5.28vw, 74px);
     display: flex;
     justify-content: start;
     gap: 25px;
-    
+
     & a {
       width: 20px;
       height: 20px;
-      
-      
+
+
       & svg {
         width: 100%;
         height: 100%;
         object-fit: fill;
         object-position: center;
         transition: 0.5s;
+        max-width: 26px;
+        max-height: 26px;
+        min-width: 26px;
+        min-height: 26px;
 
         &:hover {
           filter: drop-shadow(0px 0px 5px rgb(233, 245, 5));

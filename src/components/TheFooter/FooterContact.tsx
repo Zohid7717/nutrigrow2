@@ -3,11 +3,11 @@ import Link from 'next/link';
 import './styles/FooterContact.scss'
 
 function FooterContact() {
-  const t = useTranslations('Footer.Contacts')
+  const t = useTranslations('Footer')
 
   return (
     <div className='footer-contact'>
-      <h3>{t('h3')}</h3>
+      <h3>{t('Contacts.h3')}</h3>
       <div className="footer-contact__items">
         <Link href="tel:+998988772020">
           <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ function FooterContact() {
           <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6.5625 20.0312C4.53125 17.4922 0 11.4375 0 8C0 3.85938 3.32031 0.5 7.5 0.5C11.6406 0.5 15 3.85938 15 8C15 11.4375 10.4297 17.4922 8.39844 20.0312C7.92969 20.6172 7.03125 20.6172 6.5625 20.0312ZM7.5 10.5C8.86719 10.5 10 9.40625 10 8C10 6.63281 8.86719 5.5 7.5 5.5C6.09375 5.5 5 6.63281 5 8C5 9.40625 6.09375 10.5 7.5 10.5Z" fill="#079460" />
           </svg>
-          <p> 12b Admiralty way, Lekki, Lagos</p>
+          <p>{t('address')}</p>
         </Link>
       </div>
     </div>

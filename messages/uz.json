@@ -77,7 +77,8 @@
     "Contacts":{
       "h3":"Kontaktlar"
     },
-    "privacy":"Barcha huquqlar himoyalangan."
+    "privacy":"Barcha huquqlar himoyalangan.",
+    "address": "O‘zbekiston Respublikasi, Toshkent sh., Mirobod tumani, Oybek ko'chasi, 2"
   },
   "ContactForm": {
     "h3":"Murojat uchun",

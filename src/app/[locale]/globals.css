@@ -11,10 +11,17 @@ html,
 body {
   max-width: 100vw;
   font-family: Lato, Arial;
+  height: 100vh;
 }
 
 .body-fixed {
   overflow: hidden;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
@@ -23,9 +30,13 @@ a {
 }
 
 .container{
-  max-width: 1430px;
+  width: clamp(270px, 100vw, 1430px);
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.contacts__contact-section{
+  margin-top: clamp(40px, 10vw, 140px);
 }
 /* 
 @media (prefers-color-scheme: dark) {

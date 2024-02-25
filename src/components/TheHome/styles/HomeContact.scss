@@ -3,16 +3,20 @@
   gap: clamp(20px, 3vw, 42px);
   margin-bottom: clamp(60px, 10vw, 140px);
   align-items: center;
-  @media (max-width: 885px){
+
+  @media (max-width: 885px) {
     flex-direction: column;
   }
+
   &__text {
     width: 40%;
     display: flex;
     flex-direction: column;
-    @media (max-width: 885px){
+
+    @media (max-width: 885px) {
       width: 100%;
     }
+
     h3 {
       font-family: Lato, Arial;
       font-weight: 900;
@@ -43,9 +47,12 @@
 
   &__contacts {
     p {
+      display: inline-flex;
+      align-items: start;
       margin-top: 40px;
       display: flex;
       flex-direction: column;
+
       span {
         font-family: Lato, Arial;
         font-weight: 900;
@@ -64,5 +71,5 @@
       }
     }
   }
-  
+
 }

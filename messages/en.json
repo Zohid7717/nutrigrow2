@@ -78,7 +78,8 @@
     "Contacts":{
       "h3":"Contacts"
     },
-    "privacy":"All rights reserved."
+    "privacy":"All rights reserved.",
+    "address": "Republic of Uzbekistan, Tashkent, Mirabad district, st. Oybek, 2"
   },
   "ContactForm": {
     "h3":"Contact us",

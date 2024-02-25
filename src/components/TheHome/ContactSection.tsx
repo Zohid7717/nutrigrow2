@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './styles/HomeContact.scss'
 import ContactForm from '../ContactForm/ContactForm';
 
-async function HomeForm() {
+async function ContactSection() {
   const t = useTranslations('Home.Contact')
   const t2 = useTranslations('ContactForm')
   const formTranslations = {
@@ -44,4 +44,4 @@ async function HomeForm() {
   );
 }
 
-export default HomeForm;
+export default ContactSection;
