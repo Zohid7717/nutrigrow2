@@ -1,6 +1,9 @@
 'use client'
 import { useForm } from 'react-hook-form';
 import '../ComponentsStyle/ContactForm.scss'
+import { useState } from 'react';
+import ToastContainer from '../Toast/ToastContainer';
+import { useToast } from '@/store/store';
 
 type ContactFormProps = {
   formTranslations: {
@@ -14,30 +17,46 @@ type ContactFormProps = {
 }
 
 function ContactForm({ formTranslations }: ContactFormProps) {
+  const [stateMessage, setStateMessage] = useState()
+  const addMessage = useToast(state=>state.addMessage)
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors }
   } = useForm({
     mode: 'onBlur'
   })
 
-  const onSubmit = (data: any) => {
-    console.log(data)
-  }
+  const onSubmit = handleSubmit(async (data: any) => {
+    try {
+      const res = await fetch('http://localhost:3003/api/submit-message', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+      const result = await res.json()
+      addMessage(result.message)
+      reset()
+    } catch (error) {
+      console.log(error)
+    }
+  })
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className='form'>
+    <form onSubmit={onSubmit} className='form'>
       <h3>{formTranslations.h3}</h3>
       <div className="form__input-box">
         <label >
           {formTranslations.namePlaceholder}
           <input
-            {...register("firstname", {
+            {...register("name", {
               required: true
             })}
           />
-          {errors?.firstname && <p>{formTranslations.requiredMessage}</p>}
+          {errors?.name && <p>{formTranslations.requiredMessage}</p>}
         </label>
         <label>
           {formTranslations.phonePlaceholder}
@@ -58,7 +77,8 @@ function ContactForm({ formTranslations }: ContactFormProps) {
         />
         {errors?.message && <p>{formTranslations.requiredMessage}</p>}
       </label>
-      <button>{formTranslations.button}</button>
+      <button type='submit'>{formTranslations.button}</button>
+      <ToastContainer/>
     </form>
   );
 }
