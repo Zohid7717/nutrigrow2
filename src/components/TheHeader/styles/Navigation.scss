@@ -129,7 +129,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  @media (max-width: 700px){
+    background-color: #fff;
+  }
   & button {
     cursor: pointer;
     border-style: none;
@@ -141,4 +143,8 @@ nav {
       color: white;
     }
   }
+}
+.lang .active-lang{
+  background-color: #008929;
+  color: #fff;
 }

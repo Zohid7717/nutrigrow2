@@ -56,8 +56,8 @@
           "content":"Organomineral NPK o'g'itlari ekologik toza, organik va mineral komponentlarning noyob birikmasidir. Tarkibga gumin kislotalarning qo'shilishi tuproqni boyitadi, uning tuzilishini yaxshilaydi va mikrobiologik faolligini oshiradi. Ushbu kompleks yondashuv o'simliklarni nafaqat zarur elementlar bilan, balki ularning optimal o'sishi uchun qulay sharoitlarni ham ta'minlaydi. Gumin kislotali organomineral o'g'itlar - bu organik va mineral komponentlarni, shu jumladan gumin kislotalarini birlashtirgan murakkab o'g'itdir."
         },
         "item-4": {
-          "title": "SUVDA ERUVCHAN GRANULALI NPK OG'ITLARI ",
-          "content":"Suvda eriydigan granulali NPK o'g'itlari o'simliklarning sog'lom o'sishi va rivojlanishi uchun zarur bo'lgan uchta muhim oziq moddalarni o'z ichiga olgan o'g'it turidir: azot (N), fosfor (P) va kaliy (K). Ushbu o'g'itlarning suvda eruvchanlg ularni tomchilatib sug'orish tizimlarida yoki bargiga purkash orqali ishlatish imkonini beradi. "
+          "title": "SUVDA ERUVCHAN KUKUNLI NPK OG'ITLARI ",
+          "content":"Suvda eriydigan kukunli NPK o'g'itlari o'simliklarning sog'lom o'sishi va rivojlanishi uchun zarur bo'lgan uchta muhim oziq moddalarni o'z ichiga olgan o'g'it turidir: azot (N), fosfor (P) va kaliy (K). Ushbu o'g'itlarning suvda eruvchanlg ularni tomchilatib sug'orish tizimlarida yoki bargiga purkash orqali ishlatish imkonini beradi."
         }
       }
     },
@@ -71,14 +71,15 @@
     "social":{
       "h3":"Navigatsiya",
       "p": "NutriGrow – o'simliklaringiz salomatligi, o'sishi va mo'l hosilini ta'minlashda ishonchli hamkoringiz!"
-    },"activities":{
+    },
+    "activities":{
       "h3":"Faoliyat"
     },
     "Contacts":{
       "h3":"Kontaktlar"
     },
     "privacy":"Barcha huquqlar himoyalangan.",
-    "address": "O‘zbekiston Respublikasi, Toshkent sh., Mirobod tumani, Oybek ko'chasi, 2"
+    "address": "O'zbekiston Respublikasi, Toshkent sh., Mirobod tumani, Oybek ko'chasi, 2"
   },
   "ContactForm": {
     "h3":"Murojat uchun",

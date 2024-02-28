@@ -1,20 +1,32 @@
 'use client'
- /* eslint-disable */
+/* eslint-disable */
+
+import Head from "next/head";
 import '../styles/Navigation.scss'
 
 import { usePathname, useRouter } from '@/navigation';
+import { useEffect, useState } from 'react';
 function Language() {
+  const [lang, setLang]=useState<string | null | undefined>('')
   const router = useRouter()
   const pathname = usePathname()
   const changeLang = (arg: string) => {
     router.replace(pathname, { locale: arg })
   }
 
+  useEffect(() => {
+    const htmlElement = document.querySelector('html')
+    const langValue = htmlElement?.getAttribute('lang')
+    setLang(langValue)
+  },[changeLang])
+
+  console.log(lang)
+
   return (
     <div className="lang">
-      <button onClick={() => changeLang('uz')}>O'Z</button>
-      <button onClick={() => changeLang('en')}>EN</button>
-      <button onClick={() => changeLang('ru')}>РУ</button>
+      <button onClick={() => changeLang('uz')} className={lang==='uz' ? 'active-lang' : ''}>O'Z</button>
+      <button onClick={() => changeLang('en')} className={lang==='en' ? 'active-lang' : ''}>EN</button>
+      <button onClick={() => changeLang('ru')} className={lang==='ru' ? 'active-lang' : ''}>РУ</button>
     </div>
   );
 }
