@@ -12,25 +12,31 @@ type NavigationProps = {
 }
 
 function Navigation({ navItems }: NavigationProps) {
-  const [activeNavWrap, setActiveNavWrap]=useState(false)
+  const [activeNavWrap, setActiveNavWrap] = useState(false)
+  const [lang, setLang] = useState<string | null | undefined>('')
   const pathname = usePathname()
+  const htmlElement = document.querySelector('html')
+  const langValue = htmlElement?.getAttribute('lang')
   useEffect(() => {
     if (activeNavWrap) {
       document.body.classList.add('body-fixed')
     } else {
       document.body.classList.remove('body-fixed')
     }
-  },[activeNavWrap])
+    setLang(langValue)
+  }, [activeNavWrap, langValue])
+  console.log(langValue, pathname)
   return <div className="navigation">
-    <div className={activeNavWrap ? "burger active-burger" : "burger"} onClick={()=>setActiveNavWrap(!activeNavWrap)}>
+    <div className={activeNavWrap ? "burger active-burger" : "burger"} onClick={() => setActiveNavWrap(!activeNavWrap)}>
       <span></span>
     </div>
     <div className={activeNavWrap ? "nav-wrap active-nav-wrap" : "nav-wrap"}>
       <nav>
         {navItems.map((link, index) => {
-          const isActive = pathname === link.href
+          const path = link.href=== '/' ? `/${lang}` : `/${lang}${link.href}`
+          const isActive = pathname === path
           return (
-            <Link key={index} href={link.href} onClick={() =>setActiveNavWrap(false)} className={isActive ? 'activeNav' : ''}>{link.label}</Link>
+            <Link key={index} href={link.href} onClick={() => setActiveNavWrap(false)} className={isActive ? 'activeNav' : ''}>{link.label}</Link>
           )
         })}
       </nav>

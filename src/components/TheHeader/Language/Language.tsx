@@ -20,8 +20,6 @@ function Language() {
     setLang(langValue)
   },[changeLang])
 
-  console.log(lang)
-
   return (
     <div className="lang">
       <button onClick={() => changeLang('uz')} className={lang==='uz' ? 'active-lang' : ''}>O'Z</button>
