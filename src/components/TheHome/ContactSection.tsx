@@ -32,6 +32,7 @@ async function ContactSection() {
             <span>PHONE</span>
             <Link href="tel:+998998322220">+998 99 832 2220</Link>
             <Link href="tel:+998988772020">+998 98 877 2020</Link>
+            <Link href="tel:+998957112020">+998 95 711 2020</Link>
           </p>
           <p>
             <span>EMAIL</span>
