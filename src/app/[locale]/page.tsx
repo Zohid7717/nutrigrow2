@@ -4,8 +4,12 @@ import Why from '@/components/TheHome/Why/Why';
 import { useTranslations } from 'next-intl';
 import heroBG from '../../../public/image/bg/home-hero-bg.jpg'
 import ContactSection from '@/components/TheHome/ContactSection';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-export default function Home() {
+export default function Home({ params: { locale } }: Readonly<{
+  params: { locale: string }
+}>) {
+  unstable_setRequestLocale(locale)
   const t = useTranslations('Home.hero')
   const heroContent = { h1: t('h1'), text: t('text') }
   return (

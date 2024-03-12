@@ -5,15 +5,17 @@ import logo from "../../../public/image/icon/logo.svg";
 import Link from 'next/link';
 import './styles/TheHeader.scss'
 
-function TheHeader() {
+function TheHeader({ params }: Readonly<{
+  params: string
+}>) {
   const t = useTranslations('Navigation')
-  const locale = useLocale()
+
   const navItems = [
-    { label: t('home'), href: '/' },
-    { label: t('catalog'), href: '/catalog' },
-    { label: t('partners'), href: '/partners' },
-    { label: t('blog'), href: '/blog' },
-    { label: t('contacts'), href: '/contacts' }
+    { label: t('home'), href: `/${params}/` },
+    { label: t('catalog'), href: `/${params}/catalog` },
+    { label: t('partners'), href: `/${params}/partners` },
+    { label: t('blog'), href: `/${params}/blog` },
+    { label: t('contacts'), href: `/${params}/contacts` }
   ]
 
   return (

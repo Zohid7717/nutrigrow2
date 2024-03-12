@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Head from "next/head";
-import { Inter, Open_Sans, DM_Sans, Lato } from "next/font/google";
 import TheHeader from '@/components/TheHeader/TheHeader';
 import TheFooter from '@/components/TheFooter/TheFooter';
 import "./globals.css";
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-const inter = Inter({ subsets: ["latin"] });
+const locales = ['en', 'uz', 'ru']
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
 
 export const metadata: Metadata = {
   title: "NutriGrow",
@@ -24,17 +28,18 @@ export const metadata: Metadata = {
   manifest: '../../../public/favicon/site.webmanifest'
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params: { locale }
 }: Readonly<{
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  unstable_setRequestLocale(locale)
   return (
     <html lang={locale}>
       <body>
-        <TheHeader />
+        <TheHeader params={locale} />
         <main>
           <div className="container">
             {children}

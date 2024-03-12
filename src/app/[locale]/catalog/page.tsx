@@ -1,4 +1,9 @@
-function Catalog() {
+import { unstable_setRequestLocale } from 'next-intl/server';
+
+function Catalog({ params: { locale } }: Readonly<{
+  params: { locale: string }
+}>) {
+  unstable_setRequestLocale(locale)
   return (
     <div>
       <h1>Извините за неудобство. Мы работаем над обновлением этой страницы</h1>

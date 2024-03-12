@@ -17,8 +17,8 @@ function Toast({ message, onClose }: ToastProps) {
     if (message?.length! > 0) {
       clearMessage()
     }
-    return ()=>clearTimeout(timeOut)
-  }, [onClose])
+    return () => clearTimeout(timeOut)
+  }, [onClose, clearMessage, message])
   return (
     <div className='toast'>
       <p>{message}</p>
