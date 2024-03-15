@@ -1,0 +1,46 @@
+.ticker {
+  overflow: hidden;
+  position: relative;
+
+  &__wrap {
+    display: flex;
+    width: 264%;
+    animation: moveRight 15s linear infinite;
+
+    @media (max-width: 750px) {
+      width: 400%;
+    }
+  }
+
+  &__items {
+    display: flex;
+    width: 132%;
+
+    @media (max-width: 750px) {
+      width: 200%;
+    }
+  }
+
+  &__item {
+    flex-shrink: 0;
+    padding-inline: clamp(15px, 3.57vw, 50px);
+    width: 25%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}

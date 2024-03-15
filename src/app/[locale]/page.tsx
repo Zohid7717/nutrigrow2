@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import heroBG from '../../../public/image/bg/home-hero-bg.jpg'
 import ContactSection from '@/components/TheHome/ContactSection';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import HomePartners from '@/components/TheHome/HomePartners/HomePartners';
 
 export default function Home({ params: { locale } }: Readonly<{
   params: { locale: string }
@@ -17,6 +18,7 @@ export default function Home({ params: { locale } }: Readonly<{
       <Hero heroBG={heroBG} heroContent={heroContent} />
       <Why />
       <ProductAdvantages />
+      <HomePartners/>
       <ContactSection />
     </div>
   );

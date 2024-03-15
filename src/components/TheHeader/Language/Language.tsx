@@ -6,6 +6,8 @@ import '../styles/Navigation.scss'
 
 import { usePathname, useRouter } from '@/navigation';
 import { useEffect, useState } from 'react';
+
+
 function Language() {
   const [lang, setLang]=useState<string | null | undefined>('')
   const router = useRouter()

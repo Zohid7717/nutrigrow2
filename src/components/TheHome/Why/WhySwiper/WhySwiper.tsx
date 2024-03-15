@@ -22,8 +22,8 @@ function WhySwiper({ swItems }: WhySwiperProps) {
       loop={true}
       spaceBetween={50}
       slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
       modules={[Autoplay, Pagination]}
     >
       {swItems.map((item, index) => (

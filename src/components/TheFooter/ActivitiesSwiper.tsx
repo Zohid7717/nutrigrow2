@@ -22,8 +22,8 @@ function ActivitiesSwiper() {
         modules={[Autoplay]}
         autoplay={{ delay: 3000 }}
         className="mySwiper"
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
           <div className="activitues-swiper__slide">
