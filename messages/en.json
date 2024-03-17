@@ -69,6 +69,11 @@
     "Partners":{
       "a": "Read here",
       "h2": "Our partners"
+    },
+    "Meta": {
+      "title": "Production of granular and water-soluble fertilizers - Nutrigrow",
+      "description": "Explore our wide range of granular and water-soluble fertilizers to improve your yield. Get High Quality Fertilizers Delivered Nationwide from NutriGrow",
+      "keywords": "granular fertilizers, water-soluble fertilizers, increasing productivity, agriculture, NutriGrow"
     }
   },
   "Footer": {
@@ -96,5 +101,33 @@
   "ContactUs":{
     "h1":"Contact Us",
     "text": "Welcome to our company's contact page! We appreciate your interest in our business and are ready to answer any questions you may have. Your opinion is important to us and we strive to provide you with the best service."
+  },
+  "Catalog": {
+    "Meta": {
+      "title": "Catalog mineral fertilizers - Nutrigrow",
+      "description": "Browse our catalog of granular and water-soluble fertilizers. Find the best solutions for your farming needs from NutriGrow",
+      "keywords": "fertilizers for agriculture, granular fertilizers, water-soluble fertilizers, fertilizer catalogue, NutriGrow"
+    }
+  },
+  "Blog": {
+    "Meta": {
+      "title": "Agricultural advice and news - Nutrigrow",
+      "description": "Find out the latest agricultural news and useful fertilizer tips on our blog. Stay up to date with trends and innovations in agriculture from NutriGrow",
+      "keywords": "agricultural news, agricultural advice, fertilizers, blog, NutriGrow"
+    }
+  },
+  "Partners": {
+    "Meta": {
+      "title": "Our partners - Nutrigrow",
+      "description": "Meet our partners and suppliers of granular and water-soluble fertilizers. Learn about our strategic partnerships from NutriGrow",
+      "keywords": "partners, suppliers, fertilizers, NutriGrow"
+    }
+  },
+  "Contacts": {
+    "Meta": {
+      "title": "Contact us - Nutrigrow",
+      "description": "Contact us for more information about our products and services. We are ready to answer your questions and help with your NutriGrow fertilizer needs",
+      "keywords": "contacts, communication, fertilizers, NutriGrow"
+    }
   }
 }

@@ -1,6 +1,4 @@
 'use client'
-import { useEffect, useState } from 'react';
-
 import img1 from "../../../public/image/partners/Ark_Global_Kimya.png";
 import img2 from "../../../public/image/partners/LogoBook.png";
 import img3 from "../../../public/image/partners/ishraqAlminara-new.png";
@@ -17,9 +15,8 @@ function Ticker() {
       <div className="ticker__wrap">
         <div className="ticker__items">
           {images.map((img, index) => (
-            <div className='ticker__item'>
+            <div key={index} className='ticker__item'>
               <Image
-                key={index}
                 src={img}
                 alt='ticket image'
               />
@@ -28,9 +25,8 @@ function Ticker() {
         </div>
         <div className="ticker__items">
           {images.map((img, index) => (
-            <div className='ticker__item'>
+            <div key={index} className='ticker__item'>
               <Image
-                key={index}
                 src={img}
                 alt='ticket image'
               />

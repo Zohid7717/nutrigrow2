@@ -1,9 +1,10 @@
+import { Metadata } from 'next'
 import { ReactNode } from 'react'
 
 const locales = ['en', 'uz', 'ru']
 
 export function generateStaticParams() {
-  return locales.map((locale)=>({locale}))
+  return locales.map((locale) => ({ locale }))
 }
 
 type Props = {

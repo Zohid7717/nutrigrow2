@@ -1,4 +1,16 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+
+export async function generateMetadata({ params: { locale } }: Readonly<{
+  params: { locale: string }
+}>) {
+  unstable_setRequestLocale(locale)
+  const t = await getTranslations('Catalog.Meta')
+  return {
+    title: t('title'),
+    description: t('description'),
+    keywords: t('keywords')
+  }
+}
 
 function Catalog({ params: { locale } }: Readonly<{
   params: { locale: string }

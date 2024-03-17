@@ -11,14 +11,14 @@ export default function Home({ params: { locale } }: Readonly<{
   params: { locale: string }
 }>) {
   unstable_setRequestLocale(locale)
-  const t = useTranslations('Home.hero')
-  const heroContent = { h1: t('h1'), text: t('text') }
+  const t = useTranslations('Home')
+  const heroContent = { h1: t('hero.h1'), text: t('hero.text') }
   return (
     <div>
       <Hero heroBG={heroBG} heroContent={heroContent} />
       <Why />
       <ProductAdvantages />
-      <HomePartners/>
+      <HomePartners />
       <ContactSection />
     </div>
   );

@@ -2,15 +2,15 @@
   "Index": {
     "title": "Salom dunyo!"
   },
-  "Navigation":{
+  "Navigation": {
     "home": "Biz haqimizda",
     "catalog": "Katalog",
     "partners": "Hamkorlar",
     "blog": "Blog",
     "contacts": "Kontakt"
   },
-  "Home":{
-    "hero":{
+  "Home": {
+    "hero": {
       "h1": "Biz haqimizda",
       "text": "NutriGrow kompaniyasiga xush kelibsiz. Kompaniyamiz 2020-yilda tashkil etilgan bo'lib, granulalangan o'g'itlarning keng assortimentini ishlab chiqarishga ixtisoslashgan. Biz 37 turdagi granulalangan o'g'itlarni, jumladan 11 turdagi NPK(S), 8 ta murakkab NPK va 8 ta gumin kislotali organomineral NPK, 10 turdagi mikroelementli suvda to'liq eriydigan kukunli NPK o'g'itlarini yetkazib berishdan faxrlanamiz. Ushbu mahsulotlar o'simliklarni sog'lom o'sishi va rivojlanishi uchun zarur bo'lgan barcha elementlar bilan ta'minlangan yuqori texnologiyali formulalarga ega."
     },
@@ -34,7 +34,7 @@
           "content": "Bizning mahsulotlarimiz eng yuqori sifat standartlariga javob beradi, shuning uchun har bir NutriGrow granulasi nafaqat o'g'it, balki sizning o'simliklaringiz salomatligi va farovonligining kafolati hisoblanadi."
         }
       },
-      "content-btn":{
+      "content-btn": {
         "a": "Ko'proq ma'lumot",
         "span": "Bizni kuzating"
       }
@@ -45,56 +45,89 @@
       "items": {
         "item-1": {
           "title": "GRANULALI NPK(S) O'G'ITLARI ",
-          "content":"NPKS o'g'itlari tarkibida oltingugurt (S) mavjud bo'lib, bu o'simliklarning ozuqa moddalarini singdirish samaradorligini yanada oshiradi. Bu tashqi muhitga chidamlilikni yaxshilaydi va yuqori sifatli hosilni ta'minlaydi."
+          "content": "NPKS o'g'itlari tarkibida oltingugurt (S) mavjud bo'lib, bu o'simliklarning ozuqa moddalarini singdirish samaradorligini yanada oshiradi. Bu tashqi muhitga chidamlilikni yaxshilaydi va yuqori sifatli hosilni ta'minlaydi."
         },
         "item-2": {
           "title": "GRANULALI NPK O'G'ITLARI",
-          "content":"Murakkab NPK o'g'itlari (tarkibida azot, fosfor va kaliy mavjud) o'simliklar rivojlanishida muhim rol o'ynaydi, chunki bu uch element o'simlik salomatligi va normal o'sishi uchun zarur bo'lgan asosiy makroelementlardir. Kompleks NPK o'g'itlari o'simliklarning ushbu uchta muhim makroelementga bo`lgan ehtiyojiini ta'minlash uchun ishlab chiqilgan. Tuproqdagi azot, fosfor va kaliy darajasini sozlash orqali siz o'simliklarning sog'lom o'sishini ta'minlashingiz, hosil sifatini yaxshilashingiz va tashqi muhitning noqulay sharoitlariga bo'lgan chidamlilikni oshirishingiz mumkin."
+          "content": "Murakkab NPK o'g'itlari (tarkibida azot, fosfor va kaliy mavjud) o'simliklar rivojlanishida muhim rol o'ynaydi, chunki bu uch element o'simlik salomatligi va normal o'sishi uchun zarur bo'lgan asosiy makroelementlardir. Kompleks NPK o'g'itlari o'simliklarning ushbu uchta muhim makroelementga bo`lgan ehtiyojiini ta'minlash uchun ishlab chiqilgan. Tuproqdagi azot, fosfor va kaliy darajasini sozlash orqali siz o'simliklarning sog'lom o'sishini ta'minlashingiz, hosil sifatini yaxshilashingiz va tashqi muhitning noqulay sharoitlariga bo'lgan chidamlilikni oshirishingiz mumkin."
         },
         "item-3": {
           "title": "GRANULALI NKP O'G'ITLARi + mikroelementlar + gumin kislotalar",
-          "content":"Organomineral NPK o'g'itlari ekologik toza, organik va mineral komponentlarning noyob birikmasidir. Tarkibga gumin kislotalarning qo'shilishi tuproqni boyitadi, uning tuzilishini yaxshilaydi va mikrobiologik faolligini oshiradi. Ushbu kompleks yondashuv o'simliklarni nafaqat zarur elementlar bilan, balki ularning optimal o'sishi uchun qulay sharoitlarni ham ta'minlaydi. Gumin kislotali organomineral o'g'itlar - bu organik va mineral komponentlarni, shu jumladan gumin kislotalarini birlashtirgan murakkab o'g'itdir."
+          "content": "Organomineral NPK o'g'itlari ekologik toza, organik va mineral komponentlarning noyob birikmasidir. Tarkibga gumin kislotalarning qo'shilishi tuproqni boyitadi, uning tuzilishini yaxshilaydi va mikrobiologik faolligini oshiradi. Ushbu kompleks yondashuv o'simliklarni nafaqat zarur elementlar bilan, balki ularning optimal o'sishi uchun qulay sharoitlarni ham ta'minlaydi. Gumin kislotali organomineral o'g'itlar - bu organik va mineral komponentlarni, shu jumladan gumin kislotalarini birlashtirgan murakkab o'g'itdir."
         },
         "item-4": {
           "title": "SUVDA ERUVCHAN KUKUNLI NPK OG'ITLARI ",
-          "content":"Suvda eriydigan kukunli NPK o'g'itlari o'simliklarning sog'lom o'sishi va rivojlanishi uchun zarur bo'lgan uchta muhim oziq moddalarni o'z ichiga olgan o'g'it turidir: azot (N), fosfor (P) va kaliy (K). Ushbu o'g'itlarning suvda eruvchanlg ularni tomchilatib sug'orish tizimlarida yoki bargiga purkash orqali ishlatish imkonini beradi."
+          "content": "Suvda eriydigan kukunli NPK o'g'itlari o'simliklarning sog'lom o'sishi va rivojlanishi uchun zarur bo'lgan uchta muhim oziq moddalarni o'z ichiga olgan o'g'it turidir: azot (N), fosfor (P) va kaliy (K). Ushbu o'g'itlarning suvda eruvchanlg ularni tomchilatib sug'orish tizimlarida yoki bargiga purkash orqali ishlatish imkonini beradi."
         }
       }
     },
-    "Contact":{
-      "h3":"Partner with us",
-      "h4":"Biz yordam berishdan doim xursandmiz!",
+    "Contact": {
+      "h3": "Partner with us",
+      "h4": "Biz yordam berishdan doim xursandmiz!",
       "p": "Bizga har qanday savol, fikr-mulohazalaringiz yoki takliflaringizni qoldiring. Har qanday murojatingizdan biz uchun muxim!"
     },
     "Partners": {
       "a": "Ko'proq ma'lumot",
       "h2": "Bizning hamkorlar"
+    },
+    "Meta": {
+      "title": "Donador va suvda eruvchan o'g'itlar ishlab chiqarish - Nutrigrow",
+      "description": "Hosilingizni oshirish uchun granulali va suvda eriydigan o'g'itlarning keng assortimentini o'rganing. NutriGrow kompaniyasidan butun mamlakat bo'ylab yetkazib beriladigan yuqori sifatli o'g'itlarni oling",
+      "keywords": "donador o'g'itlar, suvda eruvchan o'g'itlar, hosildorlikni oshirish, qishloq xo'jaligi, NutriGrow"
     }
   },
-  "Footer":{
-    "social":{
-      "h3":"Navigatsiya",
+  "Footer": {
+    "social": {
+      "h3": "Navigatsiya",
       "p": "NutriGrow – o'simliklaringiz salomatligi, o'sishi va mo'l hosilini ta'minlashda ishonchli hamkoringiz!"
     },
-    "activities":{
-      "h3":"Faoliyat"
+    "activities": {
+      "h3": "Faoliyat"
     },
-    "Contacts":{
-      "h3":"Kontaktlar"
+    "Contacts": {
+      "h3": "Kontaktlar"
     },
-    "privacy":"Barcha huquqlar himoyalangan.",
+    "privacy": "Barcha huquqlar himoyalangan.",
     "address": "O'zbekiston Respublikasi, Toshkent sh., Mirobod tumani, Oybek ko'chasi, 2"
   },
   "ContactForm": {
-    "h3":"Murojat uchun",
+    "h3": "Murojat uchun",
     "required-message": "Maydon bo'sh bo`lmasligi kerak!",
     "name-placeholder": "Ism:",
     "phone-placeholder": "Telefon raqam:",
     "question-placeholder": "Sizni nama qiziqtiryapti:",
     "button": "Murojatni yuborish"
   },
-  "ContactUs":{
-    "h1":"Bizning kontaktlarimiz",
+  "ContactUs": {
+    "h1": "Bizning kontaktlarimiz",
     "text": "Kompaniyamizning aloqa sahifasiga xush kelibsiz! Biz sizning maxsulotlarga bo'lgan qiziqishingizni qadrlaymiz va sizni qiziqtirgan barcha savollarga javob berishga tayyormiz. Sizning fikringiz biz uchun muhim va biz sizga eng yaxshi xizmatni taqdim etishga intilamiz."
+  },
+  "Catalog": {
+    "Meta": {
+      "title": "O'g'itlar katalogi - Nutrigrow",
+      "description": "Donador va suvda eriydigan o'g'itlar katalogimizni ko'rib chiqing. NutriGrowdan dehqonchilik ehtiyojlaringiz uchun eng yaxshi yechimlarni toping",
+      "keywords": "qishloq xo'jaligi uchun o'g'itlar, donador o'g'itlar, suvda eruvchan o'g'itlar, o'g'itlar katalogi, NutriGrow"
+    }
+  },
+  "Blog": {
+    "Meta": {
+      "title": "Qishloq xo'jaligi bo'yicha maslahatlar va yangiliklar - Nutrigrow",
+      "description": "Bizning blogimizda qishloq xo'jaligiga oid so'nggi yangiliklar va foydali o'g'itlar bo'yicha maslahatlarni bilib oling. NutriGrow kompaniyasining qishloq xo'jaligidagi tendentsiyalari va yangiliklaridan xabardor bo'ling",
+      "keywords": "qishloq xo'jaligi yangiliklari, qishloq xo'jaligi bo'yicha maslahatlar, o'g'itlar, blog, NutriGrow"
+    }
+  },
+  "Partners": {
+    "Meta": {
+      "title": "Bizning hamkorlarimiz - Nutrigrow",
+      "description": "Donador va suvda eruvchan o'g'itlar yetkazib beruvchi hamkorlarimiz bilan tanishing. NutriGrow-dan strategik hamkorliklarimiz haqida bilib oling",
+      "keywords": "hamkorlar, etkazib beruvchilar, o'g'itlar, NutriGrow"
+    }
+  },
+  "Contacts": {
+    "Meta": {
+      "title": "Biz bilan bog'laning - Nutrigrow",
+      "description": "Mahsulotlarimiz va xizmatlarimiz haqida ko'proq ma'lumot olish uchun biz bilan bog'laning. Biz sizning savollaringizga javob berishga va NutriGrow o'g'itiga bo'lgan ehtiyojingizga yordam berishga tayyormiz",
+      "keywords": "kontaktlar, aloqa, o'g'itlar, NutriGrow"
+    }
   }
 }
