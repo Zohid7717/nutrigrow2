@@ -30,7 +30,7 @@ function ContactForm({ formTranslations }: ContactFormProps) {
 
   const onSubmit = handleSubmit(async (data: any) => {
     try {
-      const res = await fetch('http://localhost:3003/api/submit-message', {
+      const res = await fetch('	https://localhost:3003/api/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

@@ -28,13 +28,6 @@ const Privacy = ({ params: { locale } }: Readonly<{
       The information received cannot be transferred to third parties, except in the following cases:
       — To fulfill obligations to the client - only with his permission.
       — Subject to reasonable and applicable legal requirements.
-
-      Contacts
-      For any questions, you can contact the site administration.
-      — Phone: +998910012565.
-      — E-mail: 777aaauz@gmail.com.
-
-      This version of the privacy policy was published on 15.02.24.
     </p>
   </div>
 }

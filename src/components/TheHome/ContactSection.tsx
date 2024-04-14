@@ -19,7 +19,7 @@ async function ContactSection() {
     <div className='home-form'>
       <div className="home-form__text">
         <h3>
-          {t('h3')}
+          {/* {t('h3')} */}
         </h3>
         <h4>
           {t('h4')}

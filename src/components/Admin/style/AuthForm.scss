@@ -1,0 +1,37 @@
+.auth-form {
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+
+  &>h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &>input {
+    border: 2px solid #e2e9e0;
+    height: 60px;
+    background-color: #fff;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  &>button {
+    font-family: 'DM Sans', Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #008929;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #008929;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+      background: #008929;
+      color: #fff;
+    }
+  }
+}

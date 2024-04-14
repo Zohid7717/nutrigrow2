@@ -20,7 +20,7 @@ function TheFooter({ params }: Readonly<{
             <Activities />
             <FooterContact />
           </div>
-          <p className="footer__copyright"><Link href={`/${params}/privacy`}>© 2022 NutriGrow. {t('privacy')} </Link></p>
+          <p className="footer__copyright"><Link href={`/${params}/privacy`}>© 2020 NutriGrow. {t('privacy')} </Link></p>
         </div>
       </div>
     </footer>
