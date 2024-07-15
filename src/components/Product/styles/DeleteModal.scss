@@ -1,0 +1,39 @@
+.delete-modal{
+  position: fixed;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #00000071;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(4px);
+  z-index: 10;
+  &__wrap{
+    max-width: clamp(270px, 34.72vw ,500px);
+    min-width: clamp(270px, 34.72vw ,500px);
+    background-color: rgba(255, 0, 0, 0.518);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    h4{
+      font-size: clamp(22px, 2.5vw, 36px);
+      margin-bottom: 40px;
+    }
+  }
+  &__btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    button{
+      background-color: #706d6d;
+      padding: 15px 20px;
+      border-style: none;
+      color: white;
+      font-size: clamp(16px, 1.85vw, 26px);
+      cursor: pointer;
+    }
+  }
+}

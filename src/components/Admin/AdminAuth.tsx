@@ -9,17 +9,19 @@ function AdminAuth() {
 
   useEffect(() => {
     getMe()
-    // setIsRegistered()
-  }, [])
+  }, [getMe])
 
-  if (isRegistered) {
-    return (
-      <AdminAuthorization />
-    )
-  }
   return (
-    <AdminRegistration />
-  );
+    <div className="admin-auth">
+      <div className="admin-auth__btns">
+        {
+          isRegistered ?
+            <AdminAuthorization setIsRegistered={setIsRegistered} /> :
+            <AdminRegistration setIsRegistered={setIsRegistered} />
+        }
+      </div>
+    </div>
+  )
 }
 
 export default AdminAuth;

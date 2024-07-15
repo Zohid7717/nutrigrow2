@@ -1,10 +1,14 @@
 'use client'
 import { useForm } from 'react-hook-form'
-import "./style/AuthForm.scss"
 import { useAuth } from '@/store/store'
+import { Dispatch, SetStateAction } from 'react'
+import "./style/AuthForm.scss"
 
+interface PropsType {
+  setIsRegistered: Dispatch<SetStateAction<boolean>>
+}
 
-function AdminRegistration() {
+function AdminRegistration({ setIsRegistered }: PropsType) {
   const adminReg = useAuth(state => state.adminReg)
   const {
     register,
@@ -19,8 +23,8 @@ function AdminRegistration() {
   })
 
   return (
-    <>
-      <form className="auth-form" onSubmit={onSubmit}>
+    <div className="auth-form">
+      <form  onSubmit={onSubmit}>
         <h2>Регистрация администратора </h2>
         <input
           type="text"
@@ -43,9 +47,10 @@ function AdminRegistration() {
             required: true
           })}
         />
-        <button>Войти</button>
+        <button>Регистрация</button>
       </form>
-    </>
+      <button onClick={()=>setIsRegistered(true)} className='regBtn'>У меня есть аккаунт</button>
+    </div>
   )
 }
 

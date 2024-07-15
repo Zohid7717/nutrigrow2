@@ -1,0 +1,34 @@
+form{
+  width: 100%;
+  &>button{
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    box-shadow: 0 0 15px 0px rgba(108, 107, 107, 0.728);
+  }
+}
+.form-grid{
+  display: grid;
+  width: 100%;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+  }
+  select{
+    padding: 10px;
+  }
+  label, .label{
+    box-shadow: 0 0 15px 0px rgba(108, 107, 107, 0.728);
+    padding: 10px;
+    h4{
+      padding: 10px;
+    }
+    li{
+      list-style: disc ;
+      margin-left: 20px;
+    }
+  }
+}

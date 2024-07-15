@@ -1,4 +1,3 @@
-import { Metadata } from 'next'
 import { ReactNode } from 'react'
 
 const locales = ['en', 'uz', 'ru']

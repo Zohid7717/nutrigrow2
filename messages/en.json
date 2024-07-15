@@ -107,6 +107,17 @@
       "title": "Catalog mineral fertilizers - Nutrigrow",
       "description": "Browse our catalog of granular and water-soluble fertilizers. Find the best solutions for your farming needs from NutriGrow",
       "keywords": "fertilizers for agriculture, granular fertilizers, water-soluble fertilizers, fertilizer catalogue, NutriGrow"
+    },
+    "h1":"Our catalog",
+    "title-1":"NPKS FERTILIZERS",
+    "title-2":"COMPLEX NPK FERTILIZERS",
+    "title-3":"ORGANOMINERAL NPK FERTILIZERS WITH HUMIC ACIDS",
+    "title-4":"WATER SOLUBLE POWDERED NPK WITH MICROELEMENTS",
+    "Card":{
+      "ReadMore": "Read more",
+      "advantages": "ADVANTAGES:",
+      "compound": "CHEMICAL COMPOSITION:",
+      "rate": "CONSUMPTION RATES:"
     }
   },
   "Blog": {

@@ -4,6 +4,7 @@ import '../ComponentsStyle/ContactForm.scss'
 import { useState } from 'react';
 import ToastContainer from '../Toast/ToastContainer';
 import { useToast } from '@/store/store';
+import axios from '../../utils/axios'
 
 type ContactFormProps = {
   formTranslations: {
@@ -30,20 +31,31 @@ function ContactForm({ formTranslations }: ContactFormProps) {
 
   const onSubmit = handleSubmit(async (data: any) => {
     try {
-      const res = await fetch('	https://localhost:3003/api/submit-form', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-      })
-      const result = await res.json()
-      addMessage(result.message)
-      reset()
+      const res = await axios.post('http://localhost:3003/api/bot/submit-form', data);
+      const result = res.data;
+      addMessage(result.message);
+      reset();
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
-  })
+  });
+
+  // const onSubmit = handleSubmit(async (data: any) => {
+  //   try {
+  //     const res = await fetch('	http://localhost:3003/api/bot/submit-form', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json'
+  //       },
+  //       body: JSON.stringify(data)
+  //     })
+  //     const result = await res.json()
+  //     addMessage(result.message)
+  //     reset()
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
+  // })
 
   return (
     <form onSubmit={onSubmit} className='form'>

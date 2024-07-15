@@ -1,0 +1,104 @@
+.full-card {
+  &>h2 {
+    font-weight: 900;
+    color: #099809;
+    font-size: clamp(24px, 4.28vw, 56px);
+  }
+}
+
+.card-un {
+  h4 {
+    font-size: clamp(20px, 2.28vw, 32px);
+    margin-bottom: clamp(15px, 2vw, 36px);
+    color: #099809;
+  }
+
+  &>p {
+    font-weight: 900;
+    font-size: clamp(20px, 3.57vw, 24px);
+    margin: clamp(20px, 3.57vw, 50px) 0px;
+  }
+
+  &__main {
+    display: flex;
+    gap: clamp(20px, 5vw, 70px);
+    margin-bottom: clamp(20px, 3.57vw, 50px);
+
+    @media (max-width: 717px) {
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+    }
+  }
+
+  &__main-img {
+    min-width: clamp(270px, 35vw, 500px);
+    max-width: clamp(270px, 35vw, 500px);
+    aspect-ratio: 1 / 1.32;
+
+    &>img {
+      max-width: 100%;
+      min-height: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__advantages {
+    & p {
+      margin-bottom: clamp(10px, 3.57vw, 30px);
+      font-weight: 600;
+      font-size: clamp(16px, 1.42vw, 20px);
+      list-style: none;
+      position: relative;
+      padding-left: 40px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-image: url('../../../../public/image/icon/check-mark.svg');
+        background-position: center;
+        background-size: cover;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+
+  &__composition {
+    margin-bottom: 20px;
+
+    &>div {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    & p {
+      background-color: #099809;
+      border: 1px solid #ffffff;
+      padding: 10px 20px;
+      font-weight: 600;
+      font-size: clamp(16px, 1.42vw, 20px);
+      color: #ffffff;
+    }
+  }
+
+  &__rate {
+    &>div {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    }
+
+    & p {
+      background-color: #099809;
+      border: 1px solid #ffffff;
+      padding: 10px 20px;
+      font-weight: 600;
+      font-size: clamp(16px, 1.42vw, 20px);
+      color: #ffffff;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import TheHeader from '@/components/TheHeader/TheHeader';
 import TheFooter from '@/components/TheFooter/TheFooter';
-import "./globals.css";
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useMessages, NextIntlClientProvider, useTranslations } from 'next-intl';
+import "./globals.css";
 
 const locales = ['en', 'uz', 'ru']
 
@@ -29,18 +29,21 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  const message = useMessages()
   unstable_setRequestLocale(locale)
   const t = useTranslations('Home')
   return (
     <html lang={locale}>
       <body>
-        <TheHeader params={locale} />
-        <main>
-          <div className="container">
-            {children}
-          </div>
-        </main>
-        <TheFooter params={locale} />
+        <NextIntlClientProvider messages={message}>
+          <TheHeader params={locale} />
+          <main>
+            <div className="container">
+              {children}
+            </div>
+          </main>
+          <TheFooter params={locale} />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

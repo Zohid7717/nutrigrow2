@@ -20,7 +20,7 @@ function ToastContainer() {
     if (message) {
       addToast(message)
     }
-  }, [message])
+  }, [message, addToast])
 
   return (
     <div className='toast-container'>

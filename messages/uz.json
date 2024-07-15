@@ -107,6 +107,17 @@
       "title": "O'g'itlar katalogi - Nutrigrow",
       "description": "Donador va suvda eriydigan o'g'itlar katalogimizni ko'rib chiqing. NutriGrowdan dehqonchilik ehtiyojlaringiz uchun eng yaxshi yechimlarni toping",
       "keywords": "qishloq xo'jaligi uchun o'g'itlar, donador o'g'itlar, suvda eruvchan o'g'itlar, o'g'itlar katalogi, NutriGrow"
+    },
+    "h1":"Bizning katalog",
+    "title-1":"GRANULALI NPK(S) O'G'ITLARI",
+    "title-2":"GRANULALI NPK O'G'ITLARI",
+    "title-3":"GRANULALI NKP O'G'ITLARi + mikroelementlar + gumin kislotalar",
+    "title-4":"SUVDA ERUVCHAN KUKUNLI NPK OG'ITLARI",
+    "Card":{
+      "ReadMore": "Ko'proq ma'lumot",
+      "advantages": "ПРЕИМУЩЕСТВА:",
+      "compound": "ХИМИЧЕСКИЙ СОСТАВ:",
+      "rate": "НОРМЫ РАСХОДА:"
     }
   },
   "Blog": {

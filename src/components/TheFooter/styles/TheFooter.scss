@@ -3,7 +3,8 @@ footer{
 }
 .footer{
   &__main{
-    padding: clamp(35px, 11.8vw, 165px) 0;
+    padding-top: clamp(35px, 11.8vw, 165px);
+    padding-bottom: clamp(35px, 11.8vw, 165px);
     display: flex;
     justify-content: space-between;
     gap: 20px;
